@@ -1,0 +1,73 @@
+@import url("https://use.typekit.net/zgs1ngp.css");
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  font-family: roboto;
+}
+.header {
+  background-color: rgb(53, 100, 131);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 60px;
+}
+
+.name {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.game {
+  background-color: rgb(53, 100, 131);
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  background-color: rgb(194, 209, 223);
+  height: 1000px;
+  width: 1000px;
+  border-radius: 20px;
+}
+
+.pixel {
+  float: left;
+}
+
+.new-row {
+  clear: left;
+}
+
+.colored {
+  background-color: black;
+}
+
+.buttons {
+  height: 175px;
+  background-color: rgb(53, 100, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  height: 50px;
+  width: 300PX;
+  border-radius: 10px;
+  border: 1px solid rgb(42, 93, 128);
+  background-color: rgb(166, 201, 235);
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  color: rgb(31, 90, 141);
+  font-weight: 200;
+}
